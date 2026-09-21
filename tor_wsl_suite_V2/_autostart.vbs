@@ -7,7 +7,7 @@ Set shell = CreateObject("WScript.Shell")
 
 ' StartScript: wsl.exe -d kali-linux -- bash /mnt/c/tor-expert-bundle/tor_wsl_suite/tools/start_suite.sh
 Dim cmdLine
-cmdLine = "wsl.exe -d kali-linux -- bash /mnt/c/tor-expert-bundle/tor_wsl_suite/tools/start_suite.sh"
+cmdLine = "wsl.exe -d kali-linux -- bash /mnt/c/tor-expert-bundle/tor_wsl_suite_V2/tools/start_suite.sh"
 
 Dim attempt
 For attempt = 1 To 3
