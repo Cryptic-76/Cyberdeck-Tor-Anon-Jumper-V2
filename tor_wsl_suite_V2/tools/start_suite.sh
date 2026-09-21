@@ -7,7 +7,7 @@
 # Läuft die Suite schon, tut das Skript nichts (kein Doppelstart).
 # =============================================================================
 
-SUITE_DIR="/mnt/c/tor-expert-bundle/tor_wsl_suite"
+SUITE_DIR="/mnt/c/tor-expert-bundle/tor_wsl_suite_V2"
 LOG_DIR_SUITE="$SUITE_DIR/logs"
 mkdir -p "$LOG_DIR_SUITE"
 LOGFILE="$LOG_DIR_SUITE/suite_start.log"
