@@ -17,7 +17,7 @@ param(
 )
 $ErrorActionPreference = "Stop"
 
-$suiteRoot  = "C:\tor-expert-bundle\tor_wsl_suite"
+$suiteRoot  = "C:\tor-expert-bundle\tor_wsl_suite_V2"
 $src        = Join-Path $suiteRoot "_autostart.vbs"
 $startupDir = [Environment]::GetFolderPath('Startup')
 $dst        = Join-Path $startupDir "Cyberdeck_TorSuite_Autostart.vbs"
