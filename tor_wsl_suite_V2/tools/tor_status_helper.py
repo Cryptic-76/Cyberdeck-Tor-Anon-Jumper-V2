@@ -22,8 +22,8 @@ sys.path.insert(0, "/mnt/c/tor-expert-bundle/tor_wsl_suite")
 
 from core.dpapi_control import ControlPasswordVault
 
-SUITE_ROOT = Path("/mnt/c/tor-expert-bundle/tor_wsl_suite")
-ENC_PATH = Path("/mnt/c/tor-expert-bundle/tor_wsl_suite/control_password.enc")
+SUITE_ROOT = Path("/mnt/c/tor-expert-bundle/tor_wsl_suite_V2")
+ENC_PATH = Path("/mnt/c/tor-expert-bundle/tor_wsl_suite_V2/control_password.enc")
 SOCKS = "127.0.0.1:9050"
 CONTROL = ("127.0.0.1", 9051)
 
