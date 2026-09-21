@@ -6,7 +6,7 @@
 # Reset, RAM-Disk-Unmount) voll durchläuft. Wartet kurz und bestätigt.
 # =============================================================================
 
-SUITE_DIR="/mnt/c/tor-expert-bundle/tor_wsl_suite"
+SUITE_DIR="/mnt/c/tor-expert-bundle/tor_wsl_suite_V2"
 LOG_DIR_SUITE="$SUITE_DIR/logs"
 mkdir -p "$LOG_DIR_SUITE"
 LOGFILE="$LOG_DIR_SUITE/suite_start.log"
