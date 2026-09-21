@@ -39,7 +39,7 @@ class SecurityConfig:
     
     port_dns: int = 5353
     port_socks: int = 9050
-    port_or: int = 9001
+    port_or: int = 8443
     port_privoxy: int = 8118
 
     @classmethod
