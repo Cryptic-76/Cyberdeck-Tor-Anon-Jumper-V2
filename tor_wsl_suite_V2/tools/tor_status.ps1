@@ -29,7 +29,7 @@ $WslHelper  = ($HelperPath -replace '^([A-Za-z]):', ('/mnt/' + $drive)) -replace
 $alive = & wsl.exe -d kali-linux -- bash -c "ss -tln 2>/dev/null | grep -q ':9051 ' && echo UP || echo DOWN" 2>$null | Select-Object -First 1
 if ($alive.Trim() -ne "UP") {
     Write-Host "[ERROR] Suite nicht aktiv (Tor-ControlPort 9051 nicht offen)." -ForegroundColor Red
-    Write-Host "        Starte die Suite in WSL:  cd /mnt/c/tor-expert-bundle/tor_wsl_suite && python3 main.py" -ForegroundColor Yellow
+    Write-Host "        Starte die Suite in WSL:  cd /mnt/c/tor-expert-bundle/tor_wsl_suite_V2 && python3 main.py" -ForegroundColor Yellow
     exit 1
 }
 
